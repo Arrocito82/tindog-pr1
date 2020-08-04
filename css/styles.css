@@ -1,0 +1,220 @@
+    body {
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    
+    #title {
+        background-color: #ff4c68;
+        color: #ffffff;
+    }
+    
+    @media (max-width:992px) {
+        #title {
+            background-color: #ff4c68;
+            color: #ffffff;
+            text-align: center;
+        }
+        .phone-container {
+            transform: rotate(25deg);
+            text-align: center;
+            margin-top: 3rem;
+        }
+    }
+    
+    h1 {
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    
+    .container-fluid {
+        padding: 3% 15% 5%;
+    }
+    
+    .container-fluid .row .col-lg-6:nth-of-type(1) {
+        padding-top: 3%;
+    }
+    
+    .navbar {
+        padding: 0 0 3.5rem;
+    }
+    
+    .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: xx-large;
+        font-weight: 700;
+        text-shadow: 0 0 3px rgba(128, 128, 128, 0.8);
+    }
+    
+    .phone-container {
+        transform: rotate(0deg);
+        text-align: center;
+    }
+    
+    @media (min-width:992px) {
+        .phone-container {
+            transform: rotate(25deg);
+            text-align: center;
+            margin-top: 0;
+        }
+        #phone-photo {
+            width: 60%;
+            position: absolute;
+        }
+        #features {
+            padding: 3rem 4rem;
+            text-align: center;
+            background-color: #ffffff;
+            position: relative;
+        }
+        .container-fluid {
+            padding: 3% 15% 10%;
+        }
+    }
+    
+    #phone-photo {
+        width: 60%;
+    }
+    
+    #features {
+        padding: 3rem 4rem;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    
+    .feature-box i {
+        font-size: 5rem;
+        color: #ef8172;
+    }
+    
+    .feature-box i:hover {
+        font-size: 5rem;
+        color: #ff4c68;
+    }
+    
+    .feature-box h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .feature-box p {
+        color: #8f8f8f;
+        padding: 0.5rem;
+    }
+    
+    .feature-box .fas {
+        box-sizing: border-box;
+        margin: 1.2rem;
+    }
+    /* testimonials section */
+    
+    #testimonials {
+        background-color: #ef8172;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .testimonial-text {
+        font-weight: bold;
+        line-height: 1.5;
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .testimonial-image {
+        border-radius: 100%;
+        width: 4.5rem;
+        margin: 1rem 2rem;
+    }
+    /* press section */
+    
+    #press {
+        background-color: #ef8172;
+        text-align: center;
+        padding: 5% 10%;
+        color: #ffffff;
+    }
+    
+    .press-logo {
+        width: 18%;
+        margin: 0 1%;
+    }
+    
+    .carousel-item {
+        height: 460px;
+    }
+    /* pricing section */
+    
+    #pricing {
+        text-align: center;
+    }
+    
+    #pricing h1 {
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+    
+    .card {
+        margin: 5% 3%;
+    }
+    
+    .card-header {
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+    
+    .card-title {
+        font-family: "Montserrat";
+        font-weight: bold;
+    }
+    /* cta  */
+    
+    #cta {
+        background-color: #ff4c68;
+        color: #ffffff;
+        text-align: center;
+        height: fit-content;
+        padding-top: 10%;
+        padding-bottom: 6%;
+    }
+    
+    #cta h1 {
+        font-weight: 900;
+        width: 65%;
+    }
+    
+    #cta button {
+        margin: 3% 1%;
+    }
+    /* footer */
+    
+    #footer {
+        text-align: center;
+        margin: 5% 0;
+    }
+    
+    #footer p {
+        color: #808080;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    #footer i {
+        margin: 2% 1%;
+    }
+    
+    #footer a {
+        color: black;
+    }
+    
+    @media (min-width:992px) {
+        #pricing {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+    }
