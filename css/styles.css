@@ -20,6 +20,7 @@
             text-align: center;
             margin-top: 3rem;
         }
+        
     }
     
     h1 {
@@ -211,7 +212,12 @@
     #footer a {
         color: black;
     }
-    
+
+    @media(max-width: 778px){
+ .carousel-item {
+        height: 650px;
+    }
+    }
     @media (min-width:992px) {
         #pricing {
             padding-top: 3rem;
